@@ -16,8 +16,8 @@ server.get("/", (req, res) => {
 
 });
 
-const port = 3000;
+const PORT = process.env.PORT || 3000;
 
-server.listen(port, () => {
+server.listen(PORT, () => {
     console.log(`Server listening at ${port}`);
 });
