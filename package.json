@@ -2,14 +2,13 @@
   "name": "random-cats",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
-  "scripts": {
-    "start": "node app.js"
-  },
+  "main": "server.js",
+  "scripts": {},
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.19.2"
+    "axios": "^0.19.2",
+    "express": "^4.17.1"
   }
 }
